@@ -86,6 +86,7 @@ function TDAOGeneric<T>.Insert(var aObject: T): iDAOGeneric<T>;
 begin
   Result := Self;
   FDAO.Insert(aObject);
+  aObject := TJson.JsonToObject<T>(FDataSource.DataSet.AsJSONObject);
 end;
 
 class function TDAOGeneric<T>.New: iDAOGeneric<T>;

@@ -10,13 +10,14 @@ procedure Registry(App: THorse);
 implementation
 
 uses
-  ListAllClientes, ClienteById;
+  ListAllClientes, ClienteById, CreateCliente;
 
 
 procedure Registry(App: THorse);
 begin
   App.Get('/clientes', ListAllClientes.GetController.handle);
   App.Get('/clientes/:id', ClienteById.GetController.handle);
+  App.Post('/clientes', CreateCliente.getController.handle);
 end;
 
 

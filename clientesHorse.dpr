@@ -24,7 +24,10 @@ uses
   ListAllClientes in 'src\UseCases\ListAllClientes\ListAllClientes.pas',
   ClienteById.UseCase in 'src\UseCases\ClienteByID\ClienteById.UseCase.pas',
   ClienteById.Controller in 'src\UseCases\ClienteByID\ClienteById.Controller.pas',
-  ClienteById in 'src\UseCases\ClienteByID\ClienteById.pas';
+  ClienteById in 'src\UseCases\ClienteByID\ClienteById.pas',
+  CreateCliente.Controller in 'src\UseCases\CreateCliente\CreateCliente.Controller.pas',
+  CreateCliente in 'src\UseCases\CreateCliente\CreateCliente.pas',
+  CreateCliente.UseCase in 'src\UseCases\CreateCliente\CreateCliente.UseCase.pas';
 
 var
   App: THorse;

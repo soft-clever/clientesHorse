@@ -1,6 +1,6 @@
 {
-	"hash": "d41d8cd98f00b204e9800998ecf8427e",
-	"updated": "2022-10-20T14:39:34.8340012-03:00",
+	"hash": "0670acdde4e1e38b56697bc77166b4ef",
+	"updated": "2022-10-27T08:24:27.4116327-03:00",
 	"installedModules": {
 		"github.com/hashload/horse": {
 			"name": "horse",
@@ -37,7 +37,7 @@
 		"https://github.com/academiadocodigo/simpleorm": {
 			"name": "simpleorm",
 			"version": "2.02.09",
-			"hash": "27c5aee618ac786d0417a619c0f15880",
+			"hash": "1fb1506caa360b3f403bafe5462e748b",
 			"artifacts": {},
 			"failed": false,
 			"changed": false

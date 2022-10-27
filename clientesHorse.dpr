@@ -1,4 +1,4 @@
-program clientesHorse;
+﻿program clientesHorse;
 
 {$APPTYPE CONSOLE}
 {$R *.res}
@@ -27,7 +27,7 @@ uses
   ClienteById in 'src\UseCases\ClienteByID\ClienteById.pas',
   CreateCliente.Controller in 'src\UseCases\CreateCliente\CreateCliente.Controller.pas',
   CreateCliente in 'src\UseCases\CreateCliente\CreateCliente.pas',
-  CreateCliente.UseCase in 'src\UseCases\CreateCliente\CreateCliente.UseCase.pas';
+  CreateCliente.UseCase in 'src\UseCases\CreateCliente\CreateCliente.UseCase.pas',
   UpdateCliente.Controller in 'src\UseCases\UpdateCliente\UpdateCliente.Controller.pas',
   UpdateCliente in 'src\UseCases\UpdateCliente\UpdateCliente.pas',
   UpdateCliente.UseCase in 'src\UseCases\UpdateCliente\UpdateCliente.UseCase.pas',

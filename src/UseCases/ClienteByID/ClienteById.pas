@@ -15,11 +15,11 @@ uses
 function GetController: TClienteByIdController;
 var
   DaoClientes: iDAOGeneric<TCliente>;
-  ListAllClientesUseCase: iClienteByIdUseCase;
+  ClienteByIdUseCase: iClienteByIdUseCase;
 begin
   DaoClientes := TDAOGeneric<TCliente>.Create;
-  ListAllClientesUseCase := TClienteByIdUseCase.Create(DaoClientes);
-  result := TClienteByIdController.Create(ListAllClientesUseCase);
+  ClienteByIdUseCase := TClienteByIdUseCase.Create(DaoClientes);
+  result := TClienteByIdController.Create(ClienteByIdUseCase);
 end;
 
 end.

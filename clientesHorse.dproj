@@ -108,9 +108,15 @@
         <DCCReference Include="src\UseCases\ClienteByID\ClienteById.UseCase.pas"/>
         <DCCReference Include="src\UseCases\ClienteByID\ClienteById.Controller.pas"/>
         <DCCReference Include="src\UseCases\ClienteByID\ClienteById.pas"/>
+<<<<<<< HEAD
         <DCCReference Include="src\UseCases\CreateCliente\CreateCliente.Controller.pas"/>
         <DCCReference Include="src\UseCases\CreateCliente\CreateCliente.pas"/>
         <DCCReference Include="src\UseCases\CreateCliente\CreateCliente.UseCase.pas"/>
+=======
+        <DCCReference Include="src\UseCases\UpdateCliente\UpdateCliente.Controller.pas"/>
+        <DCCReference Include="src\UseCases\UpdateCliente\UpdateCliente.pas"/>
+        <DCCReference Include="src\UseCases\UpdateCliente\UpdateCliente.UseCase.pas"/>
+>>>>>>> 3d58321d19bb7904852e38ac192023550fe160c2
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

@@ -100,7 +100,6 @@
         </DCCReference>
         <DCCReference Include="src\Services\Service.Utils.pas"/>
         <DCCReference Include="src\Routes\Route.Clientes.pas"/>
-        <DCCReference Include="src\UseCases\UseCase.Clientes.pas"/>
         <DCCReference Include="src\UseCases\UseCase.Report.pas"/>
         <DCCReference Include="src\UseCases\ListAllClientes\ListAllClientes.UseCase.pas"/>
         <DCCReference Include="src\UseCases\ListAllClientes\ListAllClientes.Controller.pas"/>

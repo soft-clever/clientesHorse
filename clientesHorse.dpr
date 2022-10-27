@@ -17,7 +17,6 @@ uses
   Report.Clientes in 'src\Reports\Report.Clientes.pas' {frmRelatoriosClientes: TFrame},
   Service.Utils in 'src\Services\Service.Utils.pas',
   Route.Clientes in 'src\Routes\Route.Clientes.pas',
-  UseCase.Clientes in 'src\UseCases\UseCase.Clientes.pas',
   UseCase.Report in 'src\UseCases\UseCase.Report.pas',
   ListAllClientes.UseCase in 'src\UseCases\ListAllClientes\ListAllClientes.UseCase.pas',
   ListAllClientes.Controller in 'src\UseCases\ListAllClientes\ListAllClientes.Controller.pas',
@@ -38,7 +37,6 @@ uses
 var
   App: THorse;
   DaoClientes: iDAOGeneric<TCliente>;
-  ClienteUseCase: iClienteUseCase;
   ClienteController: iClienteController;
 begin
   ReportMemoryLeaksOnShutdown := True;

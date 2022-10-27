@@ -27,7 +27,10 @@ uses
   ClienteById in 'src\UseCases\ClienteByID\ClienteById.pas',
   UpdateCliente.Controller in 'src\UseCases\UpdateCliente\UpdateCliente.Controller.pas',
   UpdateCliente in 'src\UseCases\UpdateCliente\UpdateCliente.pas',
-  UpdateCliente.UseCase in 'src\UseCases\UpdateCliente\UpdateCliente.UseCase.pas';
+  UpdateCliente.UseCase in 'src\UseCases\UpdateCliente\UpdateCliente.UseCase.pas',
+  DeleteCliente.Controller in 'src\UseCases\DeleteCliente\DeleteCliente.Controller.pas',
+  DeleteCliente in 'src\UseCases\DeleteCliente\DeleteCliente.pas',
+  DeleteCliente.UseCase in 'src\UseCases\DeleteCliente\DeleteCliente.UseCase.pas';
 
 var
   App: THorse;
@@ -48,8 +51,8 @@ begin
       .Title('API de Cadastro de Clientes')
       .Description('Realiza operações CRUD')
       .Contact
-        .Name('fgom-dev')
-        .URL('https://www.github.com/fgom-dev')
+        .Name('Soft Clever')
+        .URL('https://www.github.com/soft-clever')
       .&End
     .&End;
 

@@ -90,32 +90,27 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="src\Controller\Controller.Cliente.pas"/>
-        <DCCReference Include="src\Models\Entities\Models.Entities.Cliente.pas"/>
         <DCCReference Include="src\Connection\Connection.DbConnection.pas"/>
-        <DCCReference Include="src\Models\Models.DaoGeneric.pas"/>
-        <DCCReference Include="src\Reports\Report.Clientes.pas">
-            <Form>frmRelatoriosClientes</Form>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
+        <DCCReference Include="src\Modules\Clientes\Models\Entities\Models.Entities.Cliente.pas"/>
+        <DCCReference Include="src\Modules\Clientes\Routes\Route.Clientes.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\ClienteByID\ClienteById.Controller.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\ClienteByID\ClienteById.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\ClienteByID\ClienteById.UseCase.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\CreateCliente\CreateCliente.Controller.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\CreateCliente\CreateCliente.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\CreateCliente\CreateCliente.UseCase.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\DeleteCliente\DeleteCliente.Controller.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\DeleteCliente\DeleteCliente.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\DeleteCliente\DeleteCliente.UseCase.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\ListAllClientes\ListAllClientes.Controller.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\ListAllClientes\ListAllClientes.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\ListAllClientes\ListAllClientes.UseCase.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\UpdateCliente\UpdateCliente.Controller.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\UpdateCliente\UpdateCliente.pas"/>
+        <DCCReference Include="src\Modules\Clientes\UseCases\Clientes\UpdateCliente\UpdateCliente.UseCase.pas"/>
         <DCCReference Include="src\Services\Service.Utils.pas"/>
-        <DCCReference Include="src\Routes\Route.Clientes.pas"/>
-        <DCCReference Include="src\UseCases\UseCase.Report.pas"/>
-        <DCCReference Include="src\UseCases\ListAllClientes\ListAllClientes.UseCase.pas"/>
-        <DCCReference Include="src\UseCases\ListAllClientes\ListAllClientes.Controller.pas"/>
-        <DCCReference Include="src\UseCases\ListAllClientes\ListAllClientes.pas"/>
-        <DCCReference Include="src\UseCases\ClienteByID\ClienteById.UseCase.pas"/>
-        <DCCReference Include="src\UseCases\ClienteByID\ClienteById.Controller.pas"/>
-        <DCCReference Include="src\UseCases\ClienteByID\ClienteById.pas"/>
-        <DCCReference Include="src\UseCases\CreateCliente\CreateCliente.Controller.pas"/>
-        <DCCReference Include="src\UseCases\CreateCliente\CreateCliente.pas"/>
-        <DCCReference Include="src\UseCases\CreateCliente\CreateCliente.UseCase.pas"/>
-        <DCCReference Include="src\UseCases\UpdateCliente\UpdateCliente.Controller.pas"/>
-        <DCCReference Include="src\UseCases\UpdateCliente\UpdateCliente.pas"/>
-        <DCCReference Include="src\UseCases\UpdateCliente\UpdateCliente.UseCase.pas"/>
-        <DCCReference Include="src\UseCases\DeleteCliente\DeleteCliente.Controller.pas"/>
-        <DCCReference Include="src\UseCases\DeleteCliente\DeleteCliente.pas"/>
-        <DCCReference Include="src\UseCases\DeleteCliente\DeleteCliente.UseCase.pas"/>
+        <DCCReference Include="src\Connection\Models.DaoGeneric.pas"/>
+        <DCCReference Include="src\Modules\Clientes\Models\Entities\Endereco.Entity.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -961,9 +956,9 @@
                 <ProjectRoot Platform="OSX32" Name="$(PROJECTNAME).app"/>
                 <ProjectRoot Platform="OSX64" Name="$(PROJECTNAME).app"/>
                 <ProjectRoot Platform="Win32" Name="$(PROJECTNAME)"/>
-                <ProjectRoot Platform="Android64" Name="$(PROJECTNAME)"/>
-                <ProjectRoot Platform="Android" Name="$(PROJECTNAME)"/>
                 <ProjectRoot Platform="OSXARM64" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="Android" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="Android64" Name="$(PROJECTNAME)"/>
                 <ProjectRoot Platform="Win64" Name="$(PROJECTNAME)"/>
                 <ProjectRoot Platform="Linux64" Name="$(PROJECTNAME)"/>
                 <ProjectRoot Platform="iOSDevice32" Name="$(PROJECTNAME).app"/>

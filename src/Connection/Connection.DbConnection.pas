@@ -37,7 +37,7 @@ begin
   FConnList.Add(TFDConnection.Create(nil));
   Result := Pred(FConnList.Count);
   FConnList.Items[Result].Params.DriverID := 'MySQL';
-  FConnList.Items[Result].Params.Database := 'teste_horse';
+  FConnList.Items[Result].Params.Database := 'b04876296000160';
   FConnList.Items[Result].Params.UserName := 'softclever';
   FConnList.Items[Result].Params.Password := 'soft@1973';
   FConnList.Items[Result].Params.Values['Server'] := 'localhost';
